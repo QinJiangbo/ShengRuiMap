@@ -1,0 +1,197 @@
+/*!
+ * ShengRui Map
+ * Owner QinJiangbo 2012302580314
+ * Copyright 2014-2014 WHU, Inc.
+ * Licensed under Baidu (https://www.baidu.com)
+ */
+
+ #topbar{
+ 	width: 1356px;
+ 	height: 80px;
+ 	font-family: "微软雅黑";
+ 	font-size: 40px;
+ 	color: #FFFFFF;
+ 	text-align: center;
+ 	line-height: 80px;
+ 	background-color: #009966;
+ }
+
+ #content{
+ 	width: 1356px;
+ 	height: 550px;
+ }
+
+ #sidebar{
+ 	width: 300px;
+ 	height: 550px;
+ 	float: left;
+ 	text-align: center;
+ 	border-top: 2px #999 solid;
+ }
+
+ #mainframe{
+ 	width: 1056px;
+ 	height: 552px;
+ 	float: left;
+ 	font-family: "微软雅黑";
+ 	font-size: 40px;
+ 	color: red;
+ 	text-align: center;
+ }
+
+ #map{
+ 	width: 1056px;
+ 	height: 552px;
+ }
+
+ .items{
+ 	width: 300px;
+ 	height: 50px;
+ 	border-bottom: 1px #999 solid;
+ 	text-align: center;
+ 	font-size: 18px;
+ 	font-family: "微软雅黑";
+ 	line-height: 50px;
+ 	cursor: pointer;
+ 	list-style-type: none;
+ }
+
+ .items:hover{
+    background-color: rgba(0,153,102,0.6);
+    font-weight: bold;
+    font-size: 24px;
+ };
+
+.items span {
+	display: block; 
+	width: 300px;
+	text-align:center;
+}
+
+.items li ul { 
+	line-height: 45px; 
+	list-style-type: none;
+	text-align:center; 
+	display:none;
+	width: 300px;
+	padding:0;
+	margin:0; /*add especially for IE6/7*/
+	position: absolute; 
+	z-index:1;/*add especially for a bug of hover event*/
+}
+.items li ul li{ 
+	float: left; 
+	width: 300px;
+	height: 45px;
+	margin:0;
+	padding:0;
+	background:rgba(51,51,51,0.7);
+	/*background: #92a6ac;*/
+} 
+
+.items li ul a{ 
+	display: block; 
+	width: 300px;
+	padding:0;
+	margin:0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: normal;
+	color: #fff;
+}
+
+.items li ul a:hover{
+	color: #009966;
+	font-weight: bolder;
+}
+
+ .items ul{
+ 	list-style-type: none;
+ }
+
+ .items li:hover ul { 
+	display:block;
+} 
+.items li.sfhover ul { 
+	display:block;
+}
+
+.divider{
+	border: 1px #fff dashed;
+	margin: 0px;
+	padding: 0px;
+}
+
+.btn_cloud{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 20px;
+	border-radius: 5px;
+	background-color: #009966;
+	float: left;
+	cursor: pointer;
+	color: white;
+	font-size: 16px;
+}
+
+.spots{
+	width: 200px;
+	height: 30px;
+	border-color: #009966;
+	margin-left: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	border-radius: 4px;
+}
+
+.geo_coder{
+	width: 100px;
+	height: 30px;
+	border-color: #009966;
+	margin-left: 15px;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	border-radius: 4px;
+	text-align: center;
+}
+
+.geo_lng{
+	width: 150px;
+	height: 30px;
+	border-color: #009966;
+	margin-left: 80px;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	border-radius: 4px;
+	text-align: center;
+}
+
+.geo_lat{
+	width: 150px;
+	height: 30px;
+	border-color: #009966;
+	margin-left: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	border-radius: 4px;
+	text-align: center;
+}
+
+.code_lng,.code_lat{
+	width: 200px;
+	height: 30px;
+	border-color: #009966;
+	margin-left: 20px;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+	border-radius: 4px;
+	text-align: center;
+}
